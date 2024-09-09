@@ -1,0 +1,39 @@
+{
+  "name": "itc-dashboard-ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "@progress/kendo-theme-bootstrap": "^9.0.0",
+    "@progress/kendo-ui": "^2018.3.1219",
+    "@progress/kendo-upload-react-wrapper": "^2018.3.1017",
+    "bootstrap": "^4.1.3",
+    "moment": "^2.23.0",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-image-fallback": "^8.0.0",
+    "react-modal": "^3.16.1",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "reactstrap": "^6.5.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts  --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "proxy": "http://localhost:82"
+}
